@@ -1,0 +1,163 @@
+.headerContainer{
+    background: linear-gradient(to bottom,#80EE98,#46DFB1,#09D1C7,#0C6478 ) ;
+    margin-left: 0px;
+color: white;
+    border-radius:0px 0px 60px ;
+    padding-left: 30px;
+ 
+
+}
+#image-header{
+    width: 250px;
+    border-radius:60px 60px 60px  60px;
+    
+    border: 5px solid white;
+   
+
+}
+
+.headerLinks{
+    width: 50%;
+    display: flex;
+    
+    
+}
+.headerLinks a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: .3s;
+}
+.welcome{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: .3s;
+    width: 10%;
+    display: flex;
+    
+   
+}
+.welcome:hover {
+    background-color: #1A7FF9;
+}
+.slogan{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 50px;
+    transition: .3s;
+    width: 70%;
+    display: flex;
+    
+ 
+}
+.slogan:hover {
+    background-color: #1A7FF9;
+}
+
+
+.headerLinks a:hover {
+    background-color: #1A7FF9;
+}
+.importance h2{
+
+    border-radius: 50px;
+    border: 5px solid rgb(153, 143, 143);
+
+    background: linear-gradient(to bottom,#80EE98,#46DFB1,#09D1C7,#0C6478 ) ;
+   
+    
+    padding: 10px 15px;
+    border-radius: 50px;
+    width: 50%;
+  
+    
+   
+    
+color: #fff;
+}
+
+.line{
+    color: antiquewhite;
+}
+.inbox{
+
+ border-radius: 0px 0px 0px 30px;
+    border: 5px solid rgb(153, 143, 143);
+
+    background:  linear-gradient(to bottom,#0084ff,#0263be,#013d75,#002446 ) ;
+   
+    
+    padding: 15px 30px;
+    border-radius: 50px;
+    width: 50%;
+    color: antiquewhite;
+}
+
+#buttonclac{
+    background-color: #1A7FF9;
+    color: #80EE98;
+    border-radius: 30%;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+.boxScript {
+    background-color: #fff;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.boxScript input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.boxScript button {
+    background-color: #007BFF;
+    color: white;
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+    font-size: 16px;
+}
+
+.boxScript button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+   
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #007BFF;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}

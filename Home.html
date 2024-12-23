@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    
+    <title>Home Page</title>
+    
+    <link rel="stylesheet" href="Home.css" />
+</head>
+<script src="Home.js"></script>
+
+<body>
+    <div class="head">
+        <ul>
+            <li>
+                <a href="mailto:me6562688@gmail.com" target="_blank" class="l1">Contact</a>
+            </li>
+            <li>
+                <a href="About.html" target="_self" class="l2">About</a>
+            </li>
+            <li>
+                <a href="#" target="_blank" class="l2">Home</a>
+            </li>
+        </ul>
+    </div>
+    <div class="dt">
+        <!-- <input type="button" value="GetDate" id="time" onclick="document.getElementById('time').innerHTML =new Date()"> -->
+        <div class="time"><span id="current_date">Current_Date = </span>
+        <script>
+            date = new Date().toLocaleDateString();
+            document.write(date);
+            </script>
+            </div>
+    </div>
+    <div class="Searchbox">
+        <form id="s">
+            <select id="search">
+                <option value="a" id="home">Home</option>
+                <option value="b" id="calories">CALORIES AND FOOD</option>
+                <option value="c" id="bmi">Body Mass Index</option>
+                <option value="d" id="sleep">Everything we need to know about sleep</option>
+                <option value="e" id="fitness">Know Everything About Physical Fitness</option>
+                <option value="f" id="firstAid">What is the first aid?</option>
+                <option value="g" id="nutrition">Healthy Nutrition: A Key to Well-being</option>
+            </select>
+            <input type="submit" value="Search" onclick="Search()">
+        </form>
+    </div>
+    
+    <div class="Contant">
+        <div>
+            <h2 class="intro">Introduction:</h2>
+            <p class="introbody">
+                A healthy lifestyle involves making choices that promote physical,
+                mental, and emotional well-being. It includes a balanced diet rich in
+                nutrients, regular physical activity, adequate sleep, and staying
+                hydrated. Managing stress through mindfulness, relaxation techniques,
+                and positive social connections is essential for mental health.
+                Avoiding harmful habits like smoking and excessive alcohol
+                consumption, along with regular health check-ups, helps maintain
+                overall health. A healthy life is not just about physical fitness but
+                also about fostering happiness, balance, and resilience in all aspects
+                of life.
+            </p>
+        </div>
+        <div>
+            <h2 class="con">Conclusion:</h2>
+            <p class="conbody">The Pages explain more and more information.</p>
+        </div>
+
+        <div class="tablee">
+            <table  cellpadding="3" cellspacing="3" width="60%">
+                <tr>
+                    <th>Number of Page </th>
+                    <th>Page name</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>HomePage</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CALORIES AND FOOD</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Body Mass Index</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Everything we need to know about sleep</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Know Everything About Physical Fitness</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>What is the first aid?</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Healthy Nutrition: A Key to Well-being</td>
+                </tr>
+            </table>
+        </div>
+
+        
+
+         <div class="link">
+            <ul>
+                <li>
+                    <a href= # target="_blank" class="l1">1</a>
+                </li>
+                <li>
+                    <a href="CALORIES AND FOOD.html" target="_blank" class="l2">2</a>
+                </li>
+                <li>
+                    <a href="Body Mass Index.html" target="_blank" class="l2">3</a>
+                </li>
+                <li>
+                    <a href="Sleeping.html" target="_blank" class="l2">4</a>
+                </li>
+                <li>
+                    <a href="Physcial.html" target="_blank" class="l2">5</a>
+                </li>
+                <li>
+                    <a href="First_aid.html" target="_blank" class="l2">6</a>
+                </li>
+                <li>
+                    <a href="Healthy Nutrition.html" target="_blank" class="l2">7</a>
+                </li>
+            </ul>
+         </div>
+
+    </div>
+</body>
+
+</html>

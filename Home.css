@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body {
+    background-image: url("flat-lay-sport-frame-with-salad.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    background-blend-mode:screen;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.Searchbox{
+
+    padding: 15px;
+    margin: 10px;
+    margin: 10px;
+    
+;
+}
+    .table{
+
+        padding: 10px;
+    margin: 10px;
+
+    }
+ 
+
+    
+    table, th, td {
+     border: 1px solid #000000;
+    
+    padding: 2px;
+    margin: 2px;
+    color: #000000;
+    font-weight: 200;
+    text-align: center;
+    }
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 52px;
+}
+.head>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.head>ul>li{
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    position: relative;
+    transition: .3s;
+    cursor: pointer; 
+}
+.head>ul>li::before{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 1px;
+    background-color: black;
+    width: 0;
+    transition: .3s;
+}
+.head>ul>li:hover::before{
+    width: 100%;
+}
+li>a{
+    color: black;
+}
+.Contant {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+
+}
+.introbody,.conbody{
+    padding-left: 15px;
+    width: 75%;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+
+
+
+.link>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.link>ul>li{
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    position: relative;
+    transition: .3s;
+    cursor: pointer;
+}
+.link>ul>li::before{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 1px;
+    background-color: black;
+    width: 0;
+    transition: .3s;
+}
+.link>ul>li:hover::before{
+    width: 100%;
+}
+li>a{
+    color: black;
+}
+.link{
+
+    display: inline-block;
+    padding: 40px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.dt{
+
+width: 100%;
+text-align: center;
+}
+.time{
+
+
+    background-color: #f5f3f3;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 18px;
+    font-family: cursive;
+    opacity: 0.5;
+    object-fit: scale-down;
+    width: fit-content;
+    display: inline-block;
+}
+
+.time:hover{
+    opacity: 1;
+    box-shadow: 0 0 10px 10px aquamarine;
+    object-fit: fill;
+}
+
+
+

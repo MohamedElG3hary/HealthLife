@@ -1,0 +1,142 @@
+
+/*---------------------------------------------------------------------- General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 20px solid; 
+    border-image: linear-gradient(to right, rgb(38, 168, 51), rgb(0, 255, 17), green) 1; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f9f7;
+    color: #333;
+    padding: 20px;
+}
+/* -------------------------------------------------------------------------------LISTS */
+.list{
+    border: #000000 solid;
+    width: 500px;
+    padding-left: 20px;
+} 
+.Sources{
+    border: #000000 solid;
+    width: 500px;
+    padding-left: 20px;
+}
+ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ol li {
+    margin-bottom: 8px;
+}
+
+/*---------------------------------------------------------------------------- Tables */
+table {
+    width: 1200px;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4caf50;
+    color: white;
+}
+
+
+/* Drinks Table */
+.table-drinks table {
+    width: 65%;
+    /* margin: 0 auto; */
+}
+/*------------------------------------------------------------------------------ BOTTON */
+.button{
+    text-align: center;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    border-radius: 20px;
+    object-fit: scale-down;
+}
+.img:hover{
+   
+    opacity: 1;
+    box-shadow: 0 0 10px 10px rgb(0, 255, 38);
+    object-fit: fill;
+}
+.links{
+    width: 1430px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 10px solid; 
+    border-image: linear-gradient(to right, rgb(38, 168, 51), rgb(0, 255, 17), green) 1; 
+    
+    
+}
+.pages{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 40px;
+    opacity: 0.5;
+}
+.pages:hover{
+    opacity: 1;
+    box-shadow: 0 0 10px 10px rgb(0, 255, 38);
+}
+
+
+/* ---------------------------------------------------------------------------HEADERS */
+.title{
+    margin: auto;
+    width: 90%;
+    font-size: large;
+    text-align: center;
+    height: 200PX;
+    color: #ffffff;
+    background: url('food1.jpg');
+    border-radius: 20px;
+}
+.TableHeader1{
+    width: 1000px;
+    height: 60px;
+    font-size: large;
+    text-align: center;
+    color: #ffffff;
+    background: url('food.jpg');
+    border-radius: 20px;
+}
+.TableHeader2{
+    width: 1000px;
+    height: 60px;
+    font-size: large;
+    text-align: center;
+    color: #000000;
+    background: url('drinks.avif');
+    border-radius: 20px;
+}
+.intro h2, .intro h3 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+.information h3{
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+.h3,h4{
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
