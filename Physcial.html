@@ -37,10 +37,39 @@
       background-color: #f9f9f9; 
       color: red; 
   } 
+  .links{
+    width: 1430px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 10px solid; 
+    border-image: linear-gradient(to right, rgb(38, 168, 51), rgb(0, 255, 17), green) 1; 
+    
+    
+}
+  .pages{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 50px;
+    opacity: 0.5;
+}
+.pages:hover{
+    opacity: 1;
+    box-shadow: 0 0 10px 10px rgb(0, 255, 38);
+}
   
 </style> 
 </head> 
 <body> 
+    <div class="links"> 
+        <a href='Home.html' class="pages">Home</a>
+        <a href='Body Mass Index.html' class="pages">Bmr and body Index</a>
+        <a href='CALORIES AND FOOD.html' class="pages">CALORIES AND FOOD</a>
+        <a href='Physcial.html' class="pages">physical Fitness</a>
+        <a href='First_aid.html' class="pages">First-aid</a>
+        <a href='Healthy Nutrition.html' class="pages">Healthy Nutrition</a>
+        <a href='Sleeping.html' class="pages">Sleeping</a>
+    </div> <br>
     <h1>Know Everything About Physical Fitness</h1> 
     <ul> 
         <li><a href="https://www.scribd.com/document/639165964/" target="_blank">Components of Fitness</a></li> 
@@ -59,7 +88,7 @@
                 <li><strong>Muscular Endurance:</strong> The ability of muscles to continue to perform without fatigue. Examples: Planking, bodyweight exercises.</li> 
             </ul> 
         </section> 
-        <img src="Physcial.jpg" width="350" height="200">
+        <img src="Physcial.jpg"Fitness image="" width="350" height="200">
         <section id="Benefits-of-Regular-Exercise"> 
             <h2>Benefits of Regular Exercise</h2> 
             <ol> 
@@ -100,6 +129,15 @@
             </table> 
         </section> 
 
-    </script>
+        <!-- New Workout Search Section -->
+        <section class="javascript">
+           <h2>Search for an Exercise</h2>
+           <label for="exercise">Enter Exercise Name:</label>
+           <input type="text" id="exercise" placeholder="e.g., Chest and shoulder exercises">
+           <button onclick="findWorkout()">Search</button>
+           <h2 id="result"></h2>
+        </section>
+    </main> 
+
 </body> 
 </html>
